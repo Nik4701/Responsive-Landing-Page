@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Remixicons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="Assets/CSS/styles.css">
+
+    <title>Juice Website</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Juice<span>mart</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+
+                <img src="Assets/Images/nav-img.png" alt="nav image" class="nav__img">
+            </div>
+
+            <!--Toggle button-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+<!--MAIN-->
+<main class="main">
+    <!--Home-->
+    <section class="home">
+        <div class="home__shape-small"></div>
+        <div class="home__shape-big"></div>
+        <img src="Assets/Images/shape-bg.png" alt="" class="home__shape-bg">
+
+        <div class="home__container container">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Get Fresh 
+                    <span>JuiceMart</span>
+                    Everyday
+                </h1>
+                <p class="home__description">
+                    Starting at $400 per month, get <br>
+                    those benefits and more.
+                </p>
+                <a href="#" class="home__button">
+                    Details
+                </a>
+            </div>
+            <div class="home__images">
+                <img src="Assets/Images/liquid-fruit.png" alt="Liquid Image" class="home__liquid"> 
+
+                <div class="home__juice-animate">
+                    <img src="Assets/Images/juice.png" alt="Juice bottle" class="home__juice">
+                </div>
+                <img src="Assets/Images/apple1.png" alt="Apple I1" class="home__apple1">
+                <img src="Assets/Images/apple2.png" alt="Apple I2" class="home__apple2">
+                <div>
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                    <img src="Assets/Images/leaf.png" alt="leaf" class="home__leaf">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<!--GSAP-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<!--Main JS-->
+    <script src="Assets/JS/main.js"></script>
+</body>
+</html>
